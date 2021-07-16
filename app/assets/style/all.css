@@ -1,0 +1,252 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  /* mac, IOS 系統字體                   Windows 英文系統字  微軟正黑體 Android 系統字  IOS 系統字  通用字體 */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+}
+
+.mb-1 {
+  margin-bottom: .5rem;
+}
+
+.pb-1 {
+  padding-bottom: .5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.ml-2 {
+  margin-left: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.ml-3 {
+  margin-left: 24px;
+}
+
+.pt-3 {
+  padding-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 2.25rem;
+}
+
+.pb-5 {
+  padding-bottom: 2.25rem;
+}
+
+.mb-6 {
+  margin-bottom: 3rem;
+}
+
+.mb-7 {
+  margin-bottom: 4.5rem;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #A00404;
+}
+
+.text {
+  font-size: 1.25rem;
+}
+
+.dark__blue {
+  background-color: #415165;
+  color: #fff;
+}
+
+.header {
+  font-size: 1.5rem;
+}
+
+.header h1 {
+  font-size: 5rem;
+  border-bottom: 2px solid #000;
+}
+
+.header h2 {
+  border-bottom: 1px solid #000;
+}
+
+.skills {
+  color: #fff;
+  width: 996px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5rem;
+  /* 這邊margin 與 width 的順序會影響置中的呈現 */
+}
+
+.skills h2 {
+  border-bottom: 1px solid #fff;
+}
+
+.skills span {
+  color: #fff;
+}
+
+.skills__list {
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid #96A9C4;
+  width: 23%;
+  margin: 0 auto;
+  text-align: left;
+  font-weight: 300;
+}
+
+.work {
+  padding: 4.5rem 0;
+  font-size: 1.5rem;
+}
+
+.work h2 {
+  border-bottom: 1px solid #000;
+}
+
+.work__list {
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+  border-left: 1px solid #96A9C4;
+}
+
+.work__list img {
+  width: 90px;
+  height: 90px;
+}
+
+.work__list p {
+  width: 50%;
+}
+
+.contact {
+  padding-top: 1.5rem;
+  padding-bottom: 2.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.contact h2 {
+  border-bottom: 1px solid #fff;
+}
+
+.contact span {
+  color: #fff;
+}
+
+.contact__list {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.contact__list a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #fff;
+  text-decoration: none;
+}
+
+.icon__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon {
+  display: block;
+}
+/*# sourceMappingURL=all.css.map */
